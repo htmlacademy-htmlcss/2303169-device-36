@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +8,7 @@
 </head>
 <body>
   <header class="page-header">
-    <a class="logo" href="index.html"></a>
-    <img class="logo" alt="logo-device" src="#">
+    <a class="logo" href=img alt="logo-device" src="#"></a>
     <nav class="navigation">
       <ul class="main menu">
       <li class="main-menu-item"></li>
@@ -25,8 +24,9 @@
           <button type="submit">Найти</button>
         </form>
         <ul class="button-menu">
-        <li class="button-menu-icon">Коля Петухов</li>
+        <li class="button-menu-icon"><a href="Коля Петухов"></a></li>
         <li class="button-menu-icon"><a href="#" class="button">Войти</a></li>
+        <li class="button-menu-icon"><a href="#" class="button">Выйти</a></li>
         <li class="button-menu-icon"><a href="#" class="button">Сравнить</a></li>
         <li class="button-menu-icon"><a href="#" class="button">Корзина</a></li>
         </ul>
@@ -40,78 +40,87 @@
       <li class="menu-catalog-navigation"><a href="#" class="button">Каталог товаров</li>
       <li class="menu-catalog-navigation"><a href="#" class="button">Моноподы для селфи</li>
       <section class="filter">
-      <form action="Фильтр:">
+      <form action="https://echo.htmlacademy.ru">
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Стоимость,₽</legend>
             от
-          <input class="conteol-input-min" type="number" name="min-price" value="0">
+          <label><input class="conteol-input-min" type="number" name="min-price" value="0"></label>
             до
-          <input class="conteol-input-min" type="number" name="max-price" value="5000">
+          <label><input class="conteol-input-min" type="number" name="max-price" value="5000"></label>
           </fieldset>
 
 
           <fieldset class="catalog-filter-color">
             <legend class="catalog-filter-color">Цвет</legend>
-            <input type="checkbox" id="black" name="Черный" value="black" checked>
-            <label for="black">Черный</label>
-
           <div>
-            <input type="checkbox" id="white" name="Белый" value="white" checked>
+            <input type="checkbox" id="black" name="black" value="black" checked>
+            <label for="black">Черный</label>
+          </div>
+          <div>
+            <input type="checkbox" id="white" name="white" value="white" checked>
             <label for="white">Белый</label>
           </div>
           <div>
-            <input type="checkbox" id="blue" name="Синий" value="blue">
+            <input type="checkbox" id="blue" name="blue" value="blue">
             <label for="blue">Синий</label>
           </div>
           <div>
-            <input type="checkbox" id="red" name="Красный" value="red">
+            <input type="checkbox" id="red" name="red" value="red">
             <label for="red">Красный</label>
           </div>
           <div>
-            <input type="checkbox" id="pink" name="Розовый" value="pink">
+            <input type="checkbox" id="pink" name="pink value="pink">
             <label for="pink">Розовый</label>
           </div>
         </fieldset>
+        <fieldset class="catalog-filter-radio">
+        <legend class="catalog-filter-radio">bluetooth</legend>
           <div>
-            <p>Bluetooth</p>
-            <input type="radio" id="yes" name="Есть" value="Есть" checked>
+            <input type="radio" id="yes" name="bluetooth" value="Есть" checked>
             <label for="yes">Есть</label>
           </div>
-          <input type="radio" id="no" name="Нет" value="Нет">
+          <input type="radio" id="no" name="bluetooth" value="Нет">
             <label for="no">Нет</label>
             <a href="#" class="button">Подписаться</a>
+          </div>
+          <div>
+            <input type="submit" id="show" name="show" value="Показать">
+            <label for="show">Показать</label>
           </div>
        </form>
       </section>
       <section class="sorting">
-      <form action="Сортировка:">
-        <div class="dropdown">
-          <ul>
-            <li></li>
-          </ul>
-          <button onclick="function()" class="dropbth">Популярные</button>
+      <form action="https://echo.htmlacademy.ru" method="POST">
+        <select size="2" multiple name="sorting" form="Сортировка">
+          <option value="^" selected>^</option>
+          <option value="v">V</option>
+        </select>
+        <div>
+          <input type="submit"  id="send" name="send" value="отправить">
+          <label for="send">Популярные</label>
         </div>
+        </form>
       </section>
       <section>
         <div>
-          <img class="logo-product" alt="logo-device" src="#">
+          <a class="logo-product" alt="logo-device" src="#" href="img"></a>
           <a class="item_href" href="#">Любительская селфи палка</a>
-          <a class="price" href="#">540P</a>
+          <a class="price"><p>540P</p></a>
         </div>
         <div>
-            <img class="logo-product" alt="logo-device" src="#">
+            <a class="logo-product" alt="logo-device" src="#" href="img">
             <a class="item_href" href="#">Профессиональная селфи палка</a>
-            <a class="price" href="#">1500P</a>
+            <a class="price"><p>1500P</a></p>
           </div>
           <div>
-            <img class="logo-product" alt="logo-device" src="#">
+            <a class="logo-product" alt="logo-device" src="#" href="img"></a>
             <a class="item_href" href="#">Непотопляемая селфи палка</a>
-            <a class="price" href="#">2500P</a>
+            <a class="price"><p>2500P</a></p>
           </div>
           <div>
-            <img class="logo-product" alt="logo-device" src="#">
-            <a class="item_href" href="#">Селфи-палка "Следуй за мной"</a>
-            <a class="price" href="#">1000P</a>
+            <a class="logo-product" alt="logo-device" src="#" href="img"></a>
+            <a class="item_href" href="#">Селфи-палка "Следуй за мной</a>
+            <a class="price"><p>1000P</a></p>
           </div>
           <div>
             <a class="load-more" href="#">Загрузить еще</a>
@@ -127,8 +136,7 @@
       </section>
     </main>
     <footer class="page-footer">
-        <a class="logo" href="index.html"></a>
-        <img class="logo" alt="logo-device" src="#">
+        <a class="logo" href=img alt="logo-device" src="#"></a>
         <section class="footer-adress">
           <p class="visually-hidden">Санкт-Петербург,набережная реки Карповки,5,литера П. </p>
         </section>
@@ -139,12 +147,12 @@
 
 
         <section class="footer-social">
-            <img class="logo-social" alt="logo-device" src="#" href="#">
-            <img class="logo-social" alt="logo-device" src="#" href="#">
-            <img class="logo-social" alt="logo-device" src="#" href="#">
+            <a class="logo-social" alt="logo-device" src="#" href="img"></a>
+            <a class="logo-social" alt="logo-device" src="#" href="img"></a>
+            <a class="logo-social" alt="logo-device" src="#" href="img"></a>
         </section>
         <section class="footer-number">
-          <p>+7(812)812-12-12</p>
+          <a href="+7(812)812-12-12"></a>
         </section>
         <a href="https://htmlacademy.ru"></a>
         </footer>
