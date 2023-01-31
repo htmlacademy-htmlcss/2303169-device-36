@@ -8,23 +8,24 @@
 </head>
 <body>
   <header class="page-header">
-    <a class="logo" href=img alt="logo-device" src="#"></a>
+    <a class="logo" href="#">
+      <img class="logo-image" src="#"></a>
     <nav class="navigation">
       <ul class="main menu">
       <li class="main-menu-item"></li>
-        <input type="text" class="search window">
-        <li class="main-menu-item"><a class="main-menu-link" href="#">"Каталог товаров"</a></li>
+        <input type="search" class="search window">
+        <li class="main-menu-item"><a class="main-menu-link" href="#">Каталог товаров</a></li>
         <li class="main-menu-item"><a class="main-menu-link" href="#"></a>Доставка></li>
         <li class="main-menu-item"><a class="main-menu-link" href="#"></a>Гарантия></li>
         <li class="main-menu-item"><a class="main-menu-link" href="#"></a>Контакты></li>
       </ul>
       <section class="next-menu">
         <form class="search">
-          <input type="text" value="Текст поиска">
+          <input type="search" value="Текст поиска">
           <button type="submit">Найти</button>
         </form>
         <ul class="button-menu">
-        <li class="button-menu-icon"><a href="Коля Петухов"></a></li>
+        <li class="button-menu-icon"><a href="#">Коля Петухов></a></li>
         <li class="button-menu-icon"><a href="#" class="button">Войти</a></li>
         <li class="button-menu-icon"><a href="#" class="button">Выйти</a></li>
         <li class="button-menu-icon"><a href="#" class="button">Сравнить</a></li>
@@ -43,10 +44,8 @@
       <form action="https://echo.htmlacademy.ru">
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Стоимость,₽</legend>
-            от
-          <label><input class="conteol-input-min" type="number" name="min-price" value="0"></label>
-            до
-          <label><input class="conteol-input-min" type="number" name="max-price" value="5000"></label>
+            <label>от<input class="conteol-input-min" type="number" name="min-price" value="0"></label>
+            <label>до<input class="conteol-input-max" type="number" name="max-price" value="5000"></label>
           </fieldset>
 
 
@@ -79,25 +78,23 @@
             <input type="radio" id="yes" name="bluetooth" value="Есть" checked>
             <label for="yes">Есть</label>
           </div>
+          <div>
           <input type="radio" id="no" name="bluetooth" value="Нет">
             <label for="no">Нет</label>
+          </div>
             <a href="#" class="button">Подписаться</a>
-          </div>
-          <div>
-            <input type="submit" id="show" name="show" value="Показать">
-            <label for="show">Показать</label>
-          </div>
        </form>
       </section>
       <section class="sorting">
-      <form action="https://echo.htmlacademy.ru" method="POST">
-        <select size="2" multiple name="sorting" form="Сортировка">
-          <option value="^" selected>^</option>
-          <option value="v">V</option>
+      <p>Сортировка</a>
+        <select>
+          <option value="Популярные" selected>Популярные</option>
+          <option value="Дешевые">Дешевые</option>
         </select>
-        <div>
-          <input type="submit"  id="send" name="send" value="отправить">
-          <label for="send">Популярные</label>
+      </section>
+      <div class="direction">
+        <a href="#">Вверх</a>
+        <a href="#">Вниз</a>
         </div>
         </form>
       </section>
@@ -105,22 +102,22 @@
         <div>
           <a class="logo-product" alt="logo-device" src="#" href="img"></a>
           <a class="item_href" href="#">Любительская селфи палка</a>
-          <a class="price"><p>540P</p></a>
+          <p class="price">540P</p>
         </div>
         <div>
             <a class="logo-product" alt="logo-device" src="#" href="img">
             <a class="item_href" href="#">Профессиональная селфи палка</a>
-            <a class="price"><p>1500P</a></p>
+            <p class="price">1500P</p>
           </div>
           <div>
             <a class="logo-product" alt="logo-device" src="#" href="img"></a>
             <a class="item_href" href="#">Непотопляемая селфи палка</a>
-            <a class="price"><p>2500P</a></p>
+            <p class="price">2500P</p>
           </div>
           <div>
             <a class="logo-product" alt="logo-device" src="#" href="img"></a>
             <a class="item_href" href="#">Селфи-палка "Следуй за мной</a>
-            <a class="price"><p>1000P</a></p>
+            <p class="price">1000P</p>
           </div>
           <div>
             <a class="load-more" href="#">Загрузить еще</a>
@@ -136,7 +133,8 @@
       </section>
     </main>
     <footer class="page-footer">
-        <a class="logo" href=img alt="logo-device" src="#"></a>
+      <a class="logo" href="#">
+        <img class="logo-image" src="#"></a>
         <section class="footer-adress">
           <p class="visually-hidden">Санкт-Петербург,набережная реки Карповки,5,литера П. </p>
         </section>
@@ -147,9 +145,14 @@
 
 
         <section class="footer-social">
-            <a class="logo-social" alt="logo-device" src="#" href="img"></a>
-            <a class="logo-social" alt="logo-device" src="#" href="img"></a>
-            <a class="logo-social" alt="logo-device" src="#" href="img"></a>
+          <a class="logo" href="#">
+            <img class="logo-image" src="#"></a>
+          <a class="logo" href="#">
+            <img class="logo-image" src="#"></a>
+          <a class="logo" href="#">
+            <img class="logo-image" src="#"></a>
+          <a class="logo" href="#">
+            <img class="logo-image" src="#"></a>
         </section>
         <section class="footer-number">
           <a href="+7(812)812-12-12"></a>
