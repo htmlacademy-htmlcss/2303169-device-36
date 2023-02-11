@@ -3,17 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>device</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
     <header class="page-header">
-      <a class="logo" href="#">
-      <img class="logo-image" src="#"></a>
+      <a class="logo" href="images/logo.svg">
+      <img class="logo-image" src="images/logo.svg" width="145" heigh="36" alt="Логотип"></a>
       <form class="search">
-        <input type="search" value="Текст поиска">
+       <input type="search" value="Поиск по сайту">
         <button type="submit">Найти</button>
       </form>
-      <section class="next-menu">
+      <section class="button-menu">
         <ul class="button-menu"></ul>
         <li class="button-menu-icon"><a href="#" class="button">Войти</a></li>
         <li class="button-menu-icon"><a href="#" class="button">Сравнить</a></li>
@@ -22,7 +23,7 @@
       </section>
       <nav class="navigation">
         <ul class="main menu">
-          <li class="main-menu-item"><a class="main-menu-link" href="#">"Каталог товаров"</a></li>
+          <li class="main-menu-item"><a class="main-menu-link" href="#"></a>Каталог товаров</a></li>
           <li class="main-menu-item"><a class="main-menu-link" href="#"></a>Доставка</li>
           <li class="main-menu-item"><a class="main-menu-link" href="#"></a>Гарантия</li>
           <li class="main-menu-item"><a class="main-menu-link" href="#"></a>Контакты</li>
@@ -31,7 +32,7 @@
       </header>
       <main class="main-index">
           <section>
-          <img src="copter.jpg">
+            <img class="logo-image" src="images/slider-1.png" width="560" heigh="560" alt="Логотип">
           <div>
           <h1 class="visually-hidden">Порхает как бабочка,жалит как пчела!</h1>
           </div>
@@ -42,7 +43,6 @@
           <a class="podrobnee" href="#">Подробнее</a>
         </div>
         </section>
-        <section>
         <div>
           <p>800м 50м</p>
         </div>
@@ -52,18 +52,46 @@
         </section>
           <section class="catalog">
           <ul class="catalog-product">
-          <li class="catalog-item"><a href="#"> Виртуальная реальность</li>
-          <li class="catalog-item"><a href="#"> Моноподы для селфи</li>
-          <li class="catalog-item"><a href="#"> Экшн камеры</li>
-          <li class="catalog-item"><a href="#"> Фитнес-браслеты</li>
-          <li class="catalog-item"><a href="#"> Умные часы</li>
-          <li class="catalog-item"><a href="#"> Квадрокоптеры</a></li>
+            <li class="catalog-item">
+              <a href="#">
+            <img class="logo-image" src="images/vector-vr.svg" width="97" heigh="55" alt="виар">Виртуальная реальность</a>
+            </li>
+
+            <li class="catalog-item">
+              <a href="#">
+            <img class="logo-image" src="images/vector-monopod.svg" width="87" heigh="117" alt="Моноподы">Моноподы для селфи</a>
+            </li>
+
+            <li class="catalog-item">
+              <a href="#">
+            <img class="logo-image" src="images/vector-ekshn.svg" width="72" heigh="87" alt="Экшен">Экшн камеры</a>
+            </li>
+
+            <li class="catalog-item">
+              <a href="#">
+            <img class="logo-image" src="images/vector.-braslet.svg" width="108" heigh="66" alt="Браслеты">Фитнес-браслеты</a>
+            </li>
+
+            <li class="catalog-item">
+              <a href="#"> Умные часы
+            <img class="logo-image" src="images/vector-smartwatch.svg" width="57" heigh="98" alt="умные часы">Умные часы</a>
+            </li>
+
+            <li class="catalog-item">
+              <a href="#">
+            <img class="logo-image" src="images/vector-copter.svg" width="133" heigh="70" alt="квадрокоптеры">Квадрокоптеры</a>
+            </li>
+
           </ul>
           </section>
           <section class="delivery">
             <div>
             <h2 class="delivery"">Доставка</h2>
             <p class="delivery-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!Ведь мы неплохо заработаем,поднимая его на ваш этаж.</p>
+            <img class="logo-image" src="images/user-delivery-1.svg" width="43" heigh="34" alt="голова">
+            <img class="logo-image" src="images/user-delivery-2.svg" width="120" heigh="123" alt="человечек">
+            <img class="logo-image" src="images/user-delivery-3.svg" width="65" heigh="55" alt="рамка">
+
             <ul class="delivery-advantages">
               <li class="delivery-item"> <a href="#"> Доставка </a></li>
               <li class="delivery-item"> <a href="#"> Гарантия </a></li>
@@ -71,6 +99,7 @@
             </div>
             </ul>
           </section>
+          <img class="logo-image" src="images/user-delivery.svg" width="47" heigh="31" alt="авто">
           <a class="delivery-text" href="#">Доставим редкий товар под заказ</a>
           <div>
           <section>
@@ -110,8 +139,8 @@
           </section>
       </main>
       <footer class="page-footer">
-        <a class="logo" href="#">
-          <img class="logo-image" src="#"></a>
+        <a class="logo" href="logo-image">
+          <img class="logo-image" src="images/group-1.svg" width="145" heigh="36" alt="Логотип">
 
         <section class="footer-adress">
           <p>Санкт-Петербург,набережная реки Карповки,5,литера П. </p>
@@ -121,17 +150,15 @@
         <li class="main-menu-item"><a class="main-menu-link" href="#">Гарантия</a>></li>
         <li class="main-menu-item"><a class="main-menu-link" href="#">Контакты</a>></li>
 
-
         <section class="footer-social">
-          <a class="logo" href="#">
-            <img class="logo-image" src="#"></a>
-          <a class="logo" href="#">
-            <img class="logo-image" src="#"></a>
-          <a class="logo" href="#">
-            <img class="logo-image" src="#"></a>
-          <a class="logo" href="#">
-            <img class="logo-image" src="#"></a>
+          <a class="logo" href="images/telegram.svg"></a>
+          <img class="logo-image" src="images/telegram.svg" width="40" heigh="40" alt="telegram">
+          <a class="logo" href="images/youtube.svg"">
+          <img class="logo-image" src="images/youtube.svg" width="40" heigh="40" alt="youtube">
+          <a class="logo" href="images/twitter.svg"></a>
+          <img class="logo-image" src="images/twitter.svg" width="40" heigh="40" alt="twitter">
         </section>
+
         <section class="footer-number">
           <a href="tel:+7(812)812-12-12"></a>
         </section>
