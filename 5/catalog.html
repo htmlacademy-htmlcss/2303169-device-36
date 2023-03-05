@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <base href="https://htmlacademy-htmlcss.github.io/2303169-device-36/5/">
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <a class="logo" href="images/logo.svg">
+        <img
+          class="logo-image"
+          src="images/logo.svg"
+          width="145"
+          height="36"
+          alt="Логотип"/>
+      </a>
+      <div class="header-wrapper">
+        <form class="search">
+          <input type="search" value="Поиск по сайту" />
+          <button type="submit">Найти</button>
+        </form>
+        <section class="header-submenu-section">
+          <ul class="header-submenu">
+            <li class="button-menu button-menu-with-margin">
+              <a href="#" class="button">Войти</a>
+            </li>
+            <li class="button-menu">
+              <a href="#" class="button">Коля Петухов</a>
+            </li>
+            <li class="button-menu">
+              <a href="#" class="button">Сравнить</a>
+            </li>
+            <li class="button-menu">
+              <a href="#" class="button">Корзина</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <nav class="navigation">
+        <ul class="main_menu">
+          <li class="main-menu-item main-menu-item-with-margin">
+            <a class="main-menu-link" href="#">Каталог товаров</a>
+          </li>
+          <li class="main-menu-item">
+            <a class="main-menu-link" href="#"></a>Доставка
+          </li>
+          <li class="main-menu-item">
+            <a class="main-menu-link" href="#"></a>Гарантия
+          </li>
+          <li class="main-menu-item">
+            <a class="main-menu-link" href="#"></a>Контакты
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+    <main class="main-catalog">
+
+    <h1 class="main-catalog-pods">Моноподы для селфи</h1>
+<div class="mc-teg">
+      <li class="menu-catalog-navigation"><a href="Главная" class="button">Главная</a></li>
+      <li class="menu-catalog-navigation"><a href="Каталог товаров" class="button">Каталог товаров</a></li>
+      <li class="menu-catalog-navigation"><a href="Моноподы для селфи" class="button">Моноподы для селфи</a></li>
+    </div>
+
+
+      <div class="filter">
+      <form class="filter-form" action="https://echo.htmlacademy.ru">
+          <fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-title">Стоимость,₽</legend>
+            <label>от<input class="conteol-input-min" type="number" name="min-price" value="0"></label>
+            <label>до<input class="conteol-input-max" type="number" name="max-price" value="5000"></label>
+          </fieldset>
+
+<div class="catalog-left">
+          <fieldset class="catalog-filter-color">
+            <legend class="catalog-filter-color">Цвет</legend>
+          <div>
+            <input type="checkbox" id="black" name="black" value="black" checked>
+            <label for="black">Черный</label>
+          </div>
+          <div>
+            <input type="checkbox" id="white" name="white" value="white" checked>
+            <label for="white">Белый</label>
+          </div>
+          <div>
+            <input type="checkbox" id="blue" name="blue" value="blue">
+            <label for="blue">Синий</label>
+          </div>
+          <div>
+            <input type="checkbox" id="red" name="red" value="red">
+            <label for="red">Красный</label>
+          </div>
+          <div>
+            <input type="checkbox" id="pink" name="pink value="pink">
+            <label for="pink">Розовый</label>
+          </div>
+        </fieldset>
+        <fieldset class="catalog-filter-radio">
+        <legend class="catalog-filter-radio">bluetooth</legend>
+          <div>
+            <input type="radio" id="yes" name="bluetooth" value="Есть" checked>
+            <label for="yes">Есть</label>
+          </div>
+          <div>
+          <input type="radio" id="no" name="bluetooth" value="Нет">
+            <label for="no">Нет</label>
+          </div>
+            <a href="#" class="button">Подписаться</a>
+       </form>
+      </section>
+      <section class="sorting">
+      <p>Сортировка</a>
+        <select>
+          <option value="Популярные" selected>Популярные</option>
+          <option value="Дешевые">Дешевые</option>
+        </select>
+      </section>
+      <div class="direction">
+        <a href="#">Вверх</a>
+        <a href="#">Вниз</a>
+        </div>
+        </form>
+
+    </div>
+<div class="catalog-product-first">
+        <div class="product-icon-card">
+          <img class="logo-image" src="images/catalog/icon-product-1.jpg" width="87" heigh="117" alt="">
+          <a class="item_href" href="images/catalog/icon-product-1.jpg">Любительская селфи палка</a>
+          <p class="price">540P</p>
+        </div>
+        <div class="product-icon-card">
+            <img class="logo-image" src="images/catalog/icon-product-2.jpg" width="87" heigh="117" alt="">
+            <a class="item_href" href="images/catalog/icon-product-2.jpg">Профессиональная селфи палка</a>
+            <p class="price">1500P</p>
+          </div>
+          <div class="product-icon-card">
+            <img class="logo-image" src="images/catalog/icon-product-3.jpg" width="87" heigh="117" alt="">
+            <a class="item_href" href="images/catalog/icon-product-3.jpg">Непотопляемая селфи палка</a>
+            <p class="price">2500P</p>
+          </div>
+          <div class="product-icon-card">
+            <img class="logo-image" src="images/catalog/icon-product-4.jpg" width="87" heigh="117" alt="">
+            <a class="item_href" href="images/catalog/icon-product-4.jpg">Селфи-палка "Следуй за мной</a>
+            <p class="price">1000P</p>
+          </div>
+  </div>
+</div>
+          <div class="load-more-two">
+            <a class="load-more" href="#">Загрузить еще</a>
+          </div>
+
+      <div class="none-down">
+        <div class="activ-none">
+
+        <a class="none-activ-min" href="#">Назад</a>
+        <a class="none-activ" href="#">1</a>
+        <a class="none-activ" href="#">2</a>
+        <a class="none-activ" href="#">3</a>
+        <a class="none-activ" href="#">...</a>
+        <a class="none-activ" href="#">15</a>
+        <a class="none-activ-max" href="#">вперед</a>
+
+      </div>
+      <div>
+
+    </main>
+    <footer class="general-footer">
+
+      <div class="footer-left">
+        <a class="logo" href="logo-image">
+          <img
+            class="logo-image"
+            src="images/group-1.svg"
+            width="145"
+            height="36"
+            alt="Логотип"
+        /></a>
+        <p>Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+      </div>
+      <div class="footer-right">
+        <ul class="footer-menu">
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Гарантия</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+
+
+
+        <div class="social-icons">
+          <a class="logo" href="#">
+            <img
+              class="logo-image"
+              src="images/telegram.svg"
+              width="40"
+              height="40"
+              alt="telegram"
+          /></a>
+          <a class="logo" href="#">
+            <img
+              class="logo-image"
+              src="images/youtube.svg"
+              width="40"
+              height="40"
+              alt="youtube"
+          /></a>
+          <a class="logo" href="#">
+            <img
+              class="logo-image"
+              src="images/twitter.svg"
+              width="40"
+              height="40"
+              alt="twitter"
+          /></a>
+        </div>
+        </div>
+        <div class="footer-number">
+          <a href="tel:+7(812)812-12-12">+7(812)812-12-12</a>
+
+        <a class="copirate" href="https://htmlacademy.ru">https://htmlacademy.ru></a>
+        </div>
+
+
+    </footer>
+</body>
+</html>
