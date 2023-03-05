@@ -9,50 +9,76 @@
 </head>
 <body>
   <header class="page-header">
-    <a class="logo" href="images/logo.svg">
-      <img class="logo-image" src="images/logo.svg" width="145" heigh="36" alt="Логотип"></a>
-      <section class="next-menu">
+    <div class="container">
+      <a class="logo" href="images/logo.svg">
+        <img
+          class="logo-image"
+          src="images/logo.svg"
+          width="145"
+          height="36"
+          alt="Логотип"/>
+      </a>
+      <div class="header-wrapper">
         <form class="search">
-          <input type="search" value="Текст поиска">
+          <input type="search" value="Поиск по сайту" />
           <button type="submit">Найти</button>
         </form>
-      </section>
-       <section>
-      <ul class="button-menu">
-        <li class="button-menu-icon"><a href="#">Коля Петухов</a></li>
-        <li class="button-menu-icon"><a href="#" class="button">Войти</a></li>
-        <li class="button-menu-icon"><a href="#" class="button">Выйти</a></li>
-        <li class="button-menu-icon"><a href="#" class="button">Сравнить</a></li>
-        <li class="button-menu-icon"><a href="#" class="button">Корзина</a></li>
+        <section class="header-submenu-section">
+          <ul class="header-submenu">
+            <li class="button-menu button-menu-with-margin">
+              <a href="#" class="button">Войти</a>
+            </li>
+            <li class="button-menu">
+              <a href="#" class="button">Коля Петухов</a>
+            </li>
+            <li class="button-menu">
+              <a href="#" class="button">Сравнить</a>
+            </li>
+            <li class="button-menu">
+              <a href="#" class="button">Корзина</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <nav class="navigation">
+        <ul class="main_menu">
+          <li class="main-menu-item main-menu-item-with-margin">
+            <a class="main-menu-link" href="#">Каталог товаров</a>
+          </li>
+          <li class="main-menu-item">
+            <a class="main-menu-link" href="#"></a>Доставка
+          </li>
+          <li class="main-menu-item">
+            <a class="main-menu-link" href="#"></a>Гарантия
+          </li>
+          <li class="main-menu-item">
+            <a class="main-menu-link" href="#"></a>Контакты
+          </li>
         </ul>
-       </section>
-    <section>
-    <nav class="navigation">
-      <ul class="main menu">
-      <li class="main-menu-item"></li>
-        <li class="main-menu-item"><a class="main-menu-link" href="#">Каталог товаров</a></li>
-        <li class="main-menu-item"><a class="main-menu-link" href="#"></a>Доставка></li>
-        <li class="main-menu-item"><a class="main-menu-link" href="#"></a>Гарантия></li>
-        <li class="main-menu-item"><a class="main-menu-link" href="#"></a>Контакты></li>
-      </ul>
-      </section>
-    </nav>
-    </header>
+      </nav>
+    </div>
+  </header>
+
     <main class="main-catalog">
+
     <h1 class="main-catalog-pods">Моноподы для селфи</h1>
-    <ul class="main-menu-catalog">
+<div class="mc-teg">
       <li class="menu-catalog-navigation"><a href="Главная" class="button">Главная</a></li>
       <li class="menu-catalog-navigation"><a href="Каталог товаров" class="button">Каталог товаров</a></li>
       <li class="menu-catalog-navigation"><a href="Моноподы для селфи" class="button">Моноподы для селфи</a></li>
-      <section class="filter">
-      <form action="https://echo.htmlacademy.ru">
+    </div>
+
+
+      <div class="filter">
+      <form class="filter-form" action="https://echo.htmlacademy.ru">
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Стоимость,₽</legend>
             <label>от<input class="conteol-input-min" type="number" name="min-price" value="0"></label>
             <label>до<input class="conteol-input-max" type="number" name="max-price" value="5000"></label>
           </fieldset>
 
-
+<div class="catalog-left">
           <fieldset class="catalog-filter-color">
             <legend class="catalog-filter-color">Цвет</legend>
           <div>
@@ -101,65 +127,106 @@
         <a href="#">Вниз</a>
         </div>
         </form>
-      </section>
-      <section>
-        <div>
+
+    </div>
+<div class="catalog-product-first">
+        <div class="product-icon-card">
           <img class="logo-image" src="images/catalog/icon-product-1.jpg" width="87" heigh="117" alt="">
           <a class="item_href" href="images/catalog/icon-product-1.jpg">Любительская селфи палка</a>
           <p class="price">540P</p>
         </div>
-        <div>
+        <div class="product-icon-card">
             <img class="logo-image" src="images/catalog/icon-product-2.jpg" width="87" heigh="117" alt="">
             <a class="item_href" href="images/catalog/icon-product-2.jpg">Профессиональная селфи палка</a>
             <p class="price">1500P</p>
           </div>
-          <div>
+          <div class="product-icon-card">
             <img class="logo-image" src="images/catalog/icon-product-3.jpg" width="87" heigh="117" alt="">
             <a class="item_href" href="images/catalog/icon-product-3.jpg">Непотопляемая селфи палка</a>
             <p class="price">2500P</p>
           </div>
-          <div>
+          <div class="product-icon-card">
             <img class="logo-image" src="images/catalog/icon-product-4.jpg" width="87" heigh="117" alt="">
             <a class="item_href" href="images/catalog/icon-product-4.jpg">Селфи-палка "Следуй за мной</a>
             <p class="price">1000P</p>
           </div>
-          <div>
+  </div>
+</div>
+          <div class="load-more-two">
             <a class="load-more" href="#">Загрузить еще</a>
           </div>
-      </section>
-      <section>
-        <a class="none-activ" href="#">Назад</a>
-        <a class="activ" href="#">1</a>
+
+      <div class="none-down">
+        <div class="activ-none">
+
+        <a class="none-activ-min" href="#">Назад</a>
+        <a class="none-activ" href="#">1</a>
         <a class="none-activ" href="#">2</a>
         <a class="none-activ" href="#">3</a>
         <a class="none-activ" href="#">...</a>
         <a class="none-activ" href="#">15</a>
-      </section>
+        <a class="none-activ-max" href="#">вперед</a>
+
+      </div>
+      <div>
+
     </main>
-    <footer class="page-footer">
-      <a class="logo" href="logo-image">
-        <img class="logo-image" alt="Логотип"></a>
-        <section class="footer-adress">
-          <p class="visually-hidden">Санкт-Петербург,набережная реки Карповки,5,литера П. </p>
-        </section>
+    <footer class="general-footer">
 
-        <li class="main-menu-item"><a class="main-menu-link" href="#"></a>Доставка></li>
-        <li class="main-menu-item"><a class="main-menu-link" href="#"></a>Гарантия></li>
-        <li class="main-menu-item"><a class="main-menu-link" href="#"></a>Контакты></li>
+      <div class="footer-left">
+        <a class="logo" href="logo-image">
+          <img
+            class="logo-image"
+            src="images/group-1.svg"
+            width="145"
+            height="36"
+            alt="Логотип"
+        /></a>
+        <p>Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+      </div>
+      <div class="footer-right">
+        <ul class="footer-menu">
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Гарантия</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
 
 
-        <section class="footer-social">
-          <a class="logo" href="images/telegram.svg"></a>
-          <img class="logo-image" src="images/telegram.svg" width="40" heigh="40" alt="telegram">
-          <a class="logo" href="images/youtube.svg"">
-          <img class="logo-image" src="images/youtube.svg" width="40" heigh="40" alt="youtube">
-          <a class="logo" href="images/twitter.svg"></a>
-          <img class="logo-image" src="images/twitter.svg" width="40" heigh="40" alt="twitter">
-          </section>
-        <section class="footer-number">
-          <a href="+7(812)812-12-12"></a>
-        </section>
-        <a href="https://htmlacademy.ru"></a>
-        </footer>
+
+        <div class="social-icons">
+          <a class="logo" href="#">
+            <img
+              class="logo-image"
+              src="images/telegram.svg"
+              width="40"
+              height="40"
+              alt="telegram"
+          /></a>
+          <a class="logo" href="#">
+            <img
+              class="logo-image"
+              src="images/youtube.svg"
+              width="40"
+              height="40"
+              alt="youtube"
+          /></a>
+          <a class="logo" href="#">
+            <img
+              class="logo-image"
+              src="images/twitter.svg"
+              width="40"
+              height="40"
+              alt="twitter"
+          /></a>
+        </div>
+        </div>
+        <div class="footer-number">
+          <a href="tel:+7(812)812-12-12">+7(812)812-12-12</a>
+
+        <a class="copirate" href="https://htmlacademy.ru">https://htmlacademy.ru></a>
+        </div>
+
+
+    </footer>
 </body>
 </html>
